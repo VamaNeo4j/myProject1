@@ -43,6 +43,5 @@ jobs:
       uses: docker/build-push-action@v3
       with:
           context: .
-          registry: docker.io
           push: true
           tags: vama21/github-action-test:latest
