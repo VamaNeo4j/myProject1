@@ -44,3 +44,4 @@ jobs:
         registry: docker.io
         context: .
         push: true
+        tags: latest
